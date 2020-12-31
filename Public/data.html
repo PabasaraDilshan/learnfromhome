@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Testing a table</title>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script>
+
+var firebaseConfig = {
+    apiKey: "AIzaSyCsz8EqF7_35vllQuw8M4FVEf0xqR2Z7P4",
+    authDomain: "learn-from-home-44c79.firebaseapp.com",
+    databaseURL: "https://learn-from-home-44c79-default-rtdb.firebaseio.com",
+    projectId: "learn-from-home-44c79",
+    storageBucket: "learn-from-home-44c79.appspot.com",
+    messagingSenderId: "3608598792",
+    appId: "1:3608598792:web:2670e83a7bcd5dab8074bd",
+    measurementId: "G-9EYEWJ6V7F"
+  };
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+
+  <body>
+    <table style="width:100%" id="data-table">
+      <tr id="tr">
+        <th>Name</th>
+        <th>Email</th>
+        <th>Message</th>
+      </tr>
+    </table>
+
+    <script>
+      var database = firebase.database();
+      database.ref('name1').once('value', function(snapshot) {
+        if (snapshot.exists()) {
+          var content = '';
+          snapshot.forEach(function(data) {
+            var val = data.val();
+            content += '<tr>';
+            content += '<td>' + val.name1 + '</td>';
+            content += '<td>' + val.email + '</td>';
+            content += '<td>' + val.message + '</td>';
+            content += '</tr>';
+          });
+          $('#data-table').append(content);
+        }
+      });
+    </script>
+  </body>
+</html>
