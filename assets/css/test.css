@@ -1,0 +1,16 @@
+
+#courses_1{
+    text-align: center;
+}
+table{
+    border-collapse:separate; 
+    border-spacing:2px;
+}
+td{
+    vertical-align: super;
+
+}
+h3{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
