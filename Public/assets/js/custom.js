@@ -34,7 +34,7 @@
   // Mobile menu dropdown
   $(".submenu").on("click", function() {
     var width = $(window).width();
-    if (width < 992) {
+    if (width < 1200) {
       $(".submenu ul").toggleClass("active");
     }
   });

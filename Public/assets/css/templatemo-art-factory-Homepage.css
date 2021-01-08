@@ -340,7 +340,7 @@ header
 
 .header-area .main-nav .logo {
   line-height: 80px;
-  color: #fff;
+  color: #1e1e1e;
   font-size: 28px;
   font-weight: 700;
   text-transform: uppercase;
@@ -378,7 +378,7 @@ header
   display: block;
   font-weight: 500;
   font-size: 13px;
-  color: #fff;
+  color: #1e1e1e;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -403,7 +403,7 @@ header
   font-family: FontAwesome;
   content: "\f107";
   font-size: 12px;
-  color: #fff;
+  color: #1e1e1e;
   position: absolute;
   right: 18px;
   top: 12px;
@@ -502,7 +502,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #fff;
+  background-color: #1e1e1e;
   display: block;
   position: absolute;
   width: 30px;
@@ -522,7 +522,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #fff;
+  background-color: #1e1e1e;
   display: block;
   position: absolute;
   width: 30px;
@@ -574,7 +574,7 @@ header
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #fff;
+  background-color: #1e1e1e;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
@@ -586,7 +586,7 @@ header
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #fff;
+  background-color: #1e1e1e;
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
@@ -615,7 +615,7 @@ header
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
   .header-area {
     padding: 0px 15px;
     height: 80px;
@@ -704,7 +704,7 @@ header
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1199px) {
   .header-area .main-nav .nav {
     display: flex !important;
   }
@@ -715,123 +715,7 @@ header
 welcome
 --------------------------------------------- 
 */
-#welcome {
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url(../images/banner-bg.png);
-  background-repeat: no-repeat;
-/*
-TRY IT ... with or without CENTER CENTER
 
-  background-position: center center; 
-*/
-  background-size: cover;
-  width: 100%;
-  height: 105vh;
-  margin-top: -2vh;
-}
-
-.welcome-area .header-text {
-  position: absolute;
-  top: 55%;
-  transform: translateY(-60%);
-  text-align: left;
-  width: 100%;
-}
-
-.welcome-area .header-text .left-text {
-  align-self: center;
-}
-
-.welcome-area .header-text h1 {
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 80px;
-  letter-spacing: 1.4px;
-  margin-bottom: 30px;
-  color: #fff;
-}
-
-.welcome-area .header-text p {
-  font-weight: 300;
-  font-size: 17px;
-  color: #fff;
-  line-height: 30px;
-  letter-spacing: 0.25px;
-  margin-bottom: 40px;
-  position: relative;
-}
-
-@media (max-width: 991px) {
-  .welcome-area .header-text {
-    top: 55% !important;
-    transform: perspective(1px) translateY(-60%) !important;
-  }
-  .welcome-area .header-text h1 {
-    font-size: 36px;
-    line-height: 50px;
-    color: #fff;
-    margin-bottom: 15px;
-  }
-  .welcome-area .header-text h1 span {
-    color: #fff;
-  }
-  .welcome-area .header-text p {
-    color: #fff;
-    margin-bottom: 30px;
-  }
-}
-@media (max-width: 820px) {
-  .welcome-area .header-text {
-    top: 55% !important;
-    transform: perspective(1px) translateY(-60%) !important;
-  }
-  .welcome-area .header-text h1 {
-    font-size: 36px;
-    line-height: 50px;
-    margin-bottom: 15px;
-  }
-  .welcome-area .header-text p {
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 765px) {
-  .welcome-area {
-    margin-bottom: 100px;
-  }
-  .welcome-area .header-text {
-    top: 55% !important;
-    transform: perspective(1px) translateY(-50%) !important;
-    text-align: center;
-  }
-  .welcome-area .header-text .buttons {
-    display: none;
-  }
-  .welcome-area .header-text h1 {
-    font-weight: 600;
-    font-size: 24px !important;
-    line-height: 30px !important;
-    margin-bottom: 20px !important;
-  }
-  .welcome-area .header-text h1 span {
-    color: #fff;
-  }
-  .welcome-area .header-text p {
-    text-align: center;
-    color: #fff;
-    font-size: 14px;
-    line-height: 22px;
-    margin-bottom: 40px;
-  }
-  .welcome-area .header-text img {
-    width: 80%;
-    margin-top: 20px;
-  }
-}
 
 /*
 ---------------------------------------------
@@ -901,192 +785,7 @@ about
   margin-bottom: 20px;
 }
 
-/* 
----------------------------------------------
-services
---------------------------------------------- 
-*/
-#services {
-  position: relative;
-  padding: 120px 0px 90px 0px;
-  background: rgba(0, 136, 232, 1);
-  background: -moz-linear-gradient(
-    -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
-  );
-  background: -webkit-gradient(
-    left top,
-    right bottom,
-    color-stop(0%, rgba(0, 136, 232, 1)),
-    color-stop(0%, rgba(0, 182, 198, 1)),
-    color-stop(100%, rgba(0, 136, 232, 1))
-  );
-  background: -webkit-linear-gradient(
-    -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
-  );
-  background: -o-linear-gradient(
-    -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
-  );
-  background: -ms-linear-gradient(
-    -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
-  );
-  background: linear-gradient(
-    135deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0088e8', endColorstr='#0088e8', GradientType=1 );
-}
 
-.service-item {
-  cursor: pointer;
-  display: block;
-  background: #ffffff;
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
-  padding: 40px 30px;
-  text-align: center;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  position: relative;
-}
-
-@media screen and (max-width: 920px) {
-  .service-item {
-    margin: 0px 30px !important;
-  }
-}
-
-.service-item:hover .icon,
-.service-item:hover a.main-button {
-  background-color: #0088e8;
-}
-
-.service-item .icon {
-  text-align: center;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
-  margin: auto;
-  position: relative;
-  margin-bottom: 30px;
-  background: #00b4c6;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  position: relative;
-}
-
-.service-item .icon img {
-  max-width: 50px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.service-item .service-title {
-  font-weight: 500;
-  font-size: 18px;
-  color: #1e1e1e;
-  letter-spacing: 0.7px;
-  margin-bottom: 15px;
-  position: relative;
-  z-index: 2;
-}
-
-.service-item p {
-  font-weight: 400;
-  font-size: 13px;
-  color: #777;
-  letter-spacing: 0.5px;
-  line-height: 25px;
-  position: relative;
-  z-index: 2;
-}
-
-.service-item a.main-button {
-  margin-top: 30px;
-  display: inline-block;
-}
-
-.owl-carousel .owl-dots {
-  margin-top: 60px;
-  text-align: center;
-  align-self: center;
-}
-
-.owl-carousel button.owl-dot span {
-  border-radius: 50%;
-  background-color: #fff;
-  width: 5px;
-  height: 5px;
-  display: inline-block;
-  margin: 0px 5px;
-}
-
-.owl-carousel button.active span {
-  width: 8px;
-  height: 8px;
-  padding-top: 1.5px;
-}
-
-.owl-carousel {
-  position: relative;
-}
-
-.owl-carousel .owl-nav button.owl-next span {
-  top: 32%;
-  border-radius: 50%;
-  font-size: 36px;
-  color: #fff;
-  right: -80px;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-  display: inline-block;
-  background-color: rgba(250, 250, 250, 0.15);
-  position: absolute;
-}
-
-.owl-carousel .owl-nav button.owl-prev span {
-  top: 32%;
-  border-radius: 50%;
-  font-size: 36px;
-  color: #fff;
-  left: -80px;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-  display: inline-block;
-  background-color: rgba(250, 250, 250, 0.15);
-  position: absolute;
-}
-
-@media screen and (max-width: 1320px) {
-  .owl-carousel .owl-nav {
-    display: none !important;
-  }
-}
 
 /*
 ---------------------------------------------
