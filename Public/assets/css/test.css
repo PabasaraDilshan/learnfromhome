@@ -10,7 +10,18 @@ td{
     vertical-align: super;
 
 }
-h3{
-    padding-bottom: 50px;
-    padding-top: 50px;
+#firstpara{
+    text-align: justify;
+}
+.section{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.section button{
+    text-align: left !important;
+}
+.section h3{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
 }
