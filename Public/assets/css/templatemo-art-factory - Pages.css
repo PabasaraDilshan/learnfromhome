@@ -732,7 +732,22 @@ welcome
 #welcome p{
   text-align: justify;
 }
-
+#welcome img{
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+#welcome #titleimage{
+  text-align: center;
+}
+#about ol>li{
+  list-style:decimal-leading-zero !important;
+}
+#about ul>li{
+  list-style: circle !important;
+  list-style-position:inside;
+}
 /* 
 ---------------------------------------------
 footer
