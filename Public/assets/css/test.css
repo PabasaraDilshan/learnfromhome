@@ -1,4 +1,22 @@
 
+
+.text1{
+  color: #f2f2f2;
+  padding: 2px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-shadow:2px 2px #000000;
+  text-align: right;
+}
+.text1:hover{
+  color: rgb(0, 132, 255);
+}
+
+
+
+
+
 #courses_1{
     text-align: center;
 }

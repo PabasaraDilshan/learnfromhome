@@ -23,6 +23,7 @@ https://templatemo.com/tm-537-art-factory
     <link rel="stylesheet" type="text/css" href="assets/css/templatemo-art-factory - Pages.css">
     <link rel="stylesheet" type="text/css" href="assets/css/owl-carousel.css">
     <link rel="stylesheet" type= "text/css" href="assets/css/test.css"> 
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
     </head>
     
@@ -37,42 +38,14 @@ https://templatemo.com/tm-537-art-factory
         </div>
     </div>  
     <!-- ***** Preloader End ***** -->
-    
+    <script>
+      $(function(){
+        $('#pagehead').load('header/header.html')
+      })
+    </script>
     
     <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
-                        <a href="#" class="logo">Learn From Home</a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
-                            <li class="scroll-to-section"><a href="index.html#about">About</a></li>
-                            <li class="scroll-to-section"><a href="index.html#services">Institutes</a></li>
-                           <!-- <li class="scroll-to-section"><a href="#frequently-question">Frequently Questions</a></li>
-                            <li class="submenu">
-                                <a href="javascript:;">Drop Down</a>
-                                <ul>
-                                    <li><a href="">About Us</a></li>
-                                    <li><a href="">Features</a></li>
-                                    <li><a href="">FAQ's</a></li>
-                                    <li><a href="">Blog</a></li>
-                                </ul>
-                            </li>-->
-                            <li class="scroll-to-section"><a href="index.html#contact-us">Contact Us</a></li>
-                        </ul>
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                        <!-- ***** Menu End ***** -->
-                    </nav>
-                </div>
-            </div>
-        </div>
+    <header id = "pagehead" class="header-area header-sticky">
     </header>
     <!-- ***** Header Area End ***** -->
     <div class="welcome-area" id="welcome">
@@ -81,8 +54,9 @@ https://templatemo.com/tm-537-art-factory
         <div class="header-text">
             <div class="container">
                 <div class="row">
-                    <div class="left-text col-lg-6 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="left-text col-lg-12 col-md-12 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                         <h1><strong>Nursing Training School (NTS)</strong></h1>
+                        <div id = "titleimage"><img src="assets/images/NTS-(Nurse Training Institute.jpg" ></div>
                         <div>
                             <p> හෙද පුහුණු පාසල යනු හෙදියන් මූලික අවධියේ සිට වෘත්තීය මට්ටම දක්වා පුහුණු කරන ස්ථානයයි.  සෑම හෙද පුහුණු පාසලක්ම සාමාන්‍ය / ශික්ෂණ රෝහලක් යටතේ ස්ථාපිත කර ඇති අතර එය, එම රෝහලේ අධ්‍යක්ෂවරයා යටතේ පාලනය වේ.  මීට අමතරව, සෑම හෙද පුහුණු පාසලකටම පාසලේ  විදුහල්පති ලෙස මේට්‍රන් කෙනෙක් සහ රෝහල්වල සේවය නොකරන විශේෂ හෙදියන්, ගුරුවරුන් ලෙස ඉගැන්වීමට ඇත.  පුහුණු කාලය තුළ දීමනාවක්, වැටුපක් ලෙස ගෙවනු ලබන අතර නිල ඇඳුම් සඳහා දීමනාවක් ද රජය විසින් ගෙවනු ලැබේ.  ශ්‍රී ලංකා රජය යටතේ හෙද ඩිප්ලෝමාව ලබා ගත හැකි එකම ස්ථානය වන්නේ මෙයයි</p>
                         </div>
@@ -249,9 +223,9 @@ https://templatemo.com/tm-537-art-factory
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
 </script>
-<script src="assets/js/submit.js"></script>
 <script src="assets/js/tables.js"></script>
 <script src="assets/js/custom pages.js"></script>
+
 
   </body>
 </html>
