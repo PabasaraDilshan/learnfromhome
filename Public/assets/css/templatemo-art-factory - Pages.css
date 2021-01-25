@@ -201,6 +201,9 @@ body {
 }
 
 @media (max-width: 991px) {
+  .logo{
+    font-size: 15px !important;
+  }
   html,
   body {
     overflow-x: hidden;

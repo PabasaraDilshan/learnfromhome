@@ -101,6 +101,7 @@ figcaption {
   outline: 0;
 }
 
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -200,9 +201,13 @@ body {
 }
 
 @media (max-width: 991px) {
+
   html,
   body {
     overflow-x: hidden;
+  }
+  .logo{
+    font-size: 15px !important;
   }
   .mobile-top-fix {
     margin-top: 30px;
@@ -215,6 +220,14 @@ body {
     margin-bottom: 60px;
   }
 }
+
+@media(max-width:350px){
+  .logo{
+
+    font-size: 10px !important;
+  }
+}
+
 
 a.main-button-slider {
   font-size: 13px;
@@ -341,7 +354,7 @@ header
 .header-area .main-nav .logo {
   line-height: 80px;
   color: #1e1e1e;
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;

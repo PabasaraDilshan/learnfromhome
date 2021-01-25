@@ -13,6 +13,13 @@
   color: rgb(0, 132, 255);
 }
 
+@media (max-width:991px){
+  .text1 h1{
+    font-size: 20px;
+  }
+}
+
+
 
 
 
