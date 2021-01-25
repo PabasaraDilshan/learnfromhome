@@ -20,6 +20,9 @@ function funtable(tablename, tableid){
         });
 }
 
-funtable("OUSL_1","ousl1");
-funtable("OUSL_2","ousl2");
-funtable("OUSL_3","ousl3");
+var i;
+var a = "OUSL_";
+var b = "ousl"
+for(i =1;i<14;i++){
+    funtable(a+i,b+i)
+}

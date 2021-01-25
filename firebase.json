@@ -3,7 +3,7 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-    "site": "lightonurdreams",
+    "site": "lightonyourdreams",
     "public": "public",
     "ignore": [
       "firebase.json",

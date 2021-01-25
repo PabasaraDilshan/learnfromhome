@@ -40,16 +40,43 @@ https://templatemo.com/tm-537-art-factory
     
     
     <!-- ***** Header Area Start ***** -->
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script>
-        $(function(){
-          $('#pagehead').load('header/header.html')
-        })
-      </script>
-      
-      <!-- ***** Header Area Start ***** -->
-      <header id = "pagehead" class="header-area header-sticky">
-      </header>
+    <header id = "pagehead" class="header-area header-sticky">
+      <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">Light On Your Dreams</a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li class="scroll-to-section"><a href="index.html#welcome" class="active">Home</a></li>
+                        <li class="scroll-to-section"><a href="index.html#about">About</a></li>
+                       <!--  <li class="scroll-to-section"><a href="#services">Institutes</a></li>-->
+                        <li class="scroll-to-section"><a href="index.html#frequently-question">Q & A</a></li>
+                        <li class="submenu">
+                            <a href="javascript:;">Institutes</a>
+                            <ul id = "institutes">
+                                <li><a href="University College.html">University College</a></li>
+                                <li><a href="VTA.html">VTA</a></li>
+                                <li><a href="Hardy_tech.html">Hardy ATI</a></li>
+                                <li><a href="NTS.html">Nursing Training School</a></li>
+                                <li><a href="OUSL.html">OUSL</a></li>
+                                <li><a href="OU.html">Ocean University</a></li>
+                            </ul>
+                        </li>
+                        <li class="scroll-to-section"><a href="index.html#contact-us">Contact Us</a></li>
+                        
+                    </ul>
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+    </header>
     <!-- ***** Header Area End ***** -->
     <div class="welcome-area" id="welcome">
 
@@ -1090,14 +1117,24 @@ https://templatemo.com/tm-537-art-factory
             </div>
     </section>
     <!-- ***** Footer Start ***** -->
-    <script>
-      $(function(){
-        $('#pagefooter').load('header/footer.html')
-      })
-    </script>
-    <footer id = "pagefooter">
-
-    </footer>
+    <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-7 col-md-12 col-sm-12">
+                  <p class="copyright">Copyright &copy; 2021 UoM Leos
+              </div>
+              <div class="col-lg-5 col-md-12 col-sm-12">
+                  <ul class="social">
+                      <li><a href="https://www.facebook.com/UOMLEOS" rel="noopener noreferrer" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                      <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                      <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </footer>
     
     <!-- jQuery -->
     <script src="assets/js/jquery-2.1.0.min.js"></script>
@@ -1140,8 +1177,8 @@ https://templatemo.com/tm-537-art-factory
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
 </script>
-<script src="assets/js/submit.js"></script>
 <script src="assets/js/tables.js"></script>
+<script src="assets/js/header.js"></script>
 
   </body>
 </html>
