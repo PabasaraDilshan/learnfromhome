@@ -687,7 +687,7 @@ header
     height: 0px;
   }
   .header-area .main-nav .nav li.submenu ul li a {
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 400;
   }
   .header-area .main-nav .nav li.submenu ul li a:hover:before {

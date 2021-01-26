@@ -11,7 +11,6 @@ function funtable(tablename, tableid){
                 content += "<td>"+"<b>"+i+":</b>"+"</td>"
                 content += "<td>"+data[row][i]+"</td>"
                 content+="</tr>"
-                console.log(i, data[row][i]);
                 };
             };
             $('#'+tableid).append(content);
