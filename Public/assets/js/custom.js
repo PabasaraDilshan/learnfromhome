@@ -32,10 +32,10 @@
   });
 
   // Mobile menu dropdown
-  $(".submenu").on("click", function() {
+  $(".submenu").first().on("click", function() {
     var width = $(window).width();
     if (width < 1200) {
-      $(".submenu ul").toggleClass("active");
+      $(".submenu ul").first().toggleClass("active");
     }
   });
 

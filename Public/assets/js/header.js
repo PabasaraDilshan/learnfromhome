@@ -42,10 +42,12 @@ header('institutes');
 
 var test = document.getElementById("pagehead");
 var elem = test.children[0].children[0].children[0].children[0].children[1];
+var elem1 = test.children[0].children[0].children[0].children[0].children[1].children[3];
+elem1.id = "firstmenu"
 var newelement = document.createElement('li');
 newelement.className = "submenu";
 newelement.id = "newmenu";
-var firstch = createa("javascript:;", "Gazzetes");
+var firstch = createa("javascript:;", "Gazettes");
 var secondchild = lifromdatabase();
 newelement.appendChild(firstch);
 newelement.appendChild(secondchild);
